@@ -1,0 +1,79 @@
+
+#ctn-icon-ubicacion i{
+    font-size: 18px;
+    color: #000000;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+#ctn-icon-ubicacion i:hover{
+    color: #46a2fd;
+}
+
+
+#ctn-bars-ubicacion{
+    position: fixed;
+    top: 1050px;
+    width: 100%;
+    background: #643b1498;
+    padding: 20px;
+    z-index: 10;
+    transition: all 600ms;
+}
+
+#ctn-bars-ubicacion iframe{
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    padding: 10px;
+    font-size: 18px;
+    outline: 0;
+}
+
+
+
+
+#cover-ctn-ubicacion{
+    width: 1000%;
+    height: 1000%;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 7;
+    display: none;
+}
+
+/*
+{
+.reflect-img {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    height:"15vh"; 
+    width:"20vh";
+    border-radius: 30%;
+    background: url("IMG/Logo.png") no-repeat center;
+}
+
+.reflect-img::after {
+    content: "";
+    height: 30%;
+    bottom: -41%;
+    background-image: inherit;
+    position: absolute;
+    background-position: bottom;
+    width: inherit;
+    transform: scaleY(-1);
+    opacity: 0.5;
+}
+
+.reflect-img::before {
+    content: "";
+    height: 40%;
+        bottom: -41%;
+  position: absolute;
+    width: inherit;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), #fff);
+    z-index: 1;
+}
+}
+*/

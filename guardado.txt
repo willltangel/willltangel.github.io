@@ -1,0 +1,526 @@
+<section>
+    <div>
+    <center>
+    <button class="button"><h3 style="color: #050505;">Sugerencias de la casa</h3></button></center>
+    <div class="image-container">
+      <img src="img/img.webp" alt="Imagen 1">
+      <img src="img/img.webp" alt="Imagen 2">
+      <img src="img/img.webp" alt="Imagen 3">
+      <img src="img/img.webp" alt="Imagen 4">
+      <img src="img/img.webp" alt="Imagen 4">
+      <img src="img/img.webp" alt="Imagen 4">
+      <img src="img/img.webp" alt="Imagen 4">
+    
+</div>
+<div style="width: 100px; display: inline;white-space: nowrap; align-items: center;">
+    <h1><center>LA EFICIENCIA HECHA MASA:</center></h1>
+</div> 
+
+<div style=" width: 100px; display: inline;white-space: nowrap; align-items: center;">
+    <center><h3>UNA EMPRESA QUE HA EVOLUCIONADO, GUIADA POR LA COVICCION DE BUSCASCAR SIEMPRE EL MEJOR PRODUCTO PARA <p style="color: #05050500;">-----------------</p> LA SATISFACCCION DE  SUS CLIENTES.  BUSCANDO MANTENER LOS ALTOS ESTANDARES DE CALIDAD.</h3>
+    </center></div> 
+
+    
+
+</div>
+</section>
+
+
+
+
+  <div class="image-container2">
+            <button id="boton" onclick="mostrar();">
+                <img src="../img/pngcafeprueba.png"></button>
+            <div id="hide">
+                <button id="boton" onclick="ocultar();" style="position: absolute;  z-index: 50;top: 32.5%;">
+                    <img src="../img/pngcafeprueba.png"
+                        style="border-radius: 100%; border: solid 5px rgba(0, 0, 0, 0)"></button>
+                <article
+                    style="position: absolute; top: 3%; left: 20%;  color: floralwhite; border: solid 5px black; background-color: rgba(182, 102, 48, 0.726);padding: 20%;">
+                    pesuti
+                </article>
+                </div>
+                <div class="image-container2">
+                    <button id="boton" onclick="mostrar();">
+                        <img src="../img/pngcafeprueba.png"></button>
+                    <div id="hide">
+                        <button id="boton" onclick="ocultar();" style="position: absolute;  z-index: 50;top: 39.5%;">
+                            <img src="../img/pngcafeprueba.png"
+                                style="border-radius: 100%; border: solid 5px rgba(0, 0, 0, 0)"></button>
+                        <article
+                            style="position: absolute; top: 3%; left: 20%;  color: floralwhite; border: solid 5px black; background-color: rgba(182, 102, 48, 0.726);padding: 20%;">
+                            hola
+                        </article>
+                        </div>
+
+
+
+    <section style="margin-top: 100px;">
+        <div style="width: 100px; display: inline;white-space: nowrap; align-items: center;">
+            <center>
+                <h2 style="font-family:cursive, Tahoma, Geneva, Verdana, sans-serif;">Las distintas maneras <br> de
+                    disfrutar de un <b style="color:rgb(233, 150, 72);">RICO MOMENTO</b></h2>
+            </center>
+        </div>
+        <article style="width: 100px; display: flex;white-space: nowrap; align-items: center; margin-left: 100px;top: 10px;">
+            <div style="width: 100px;margin: 100px;">
+                <img src="img/panificado.jfif" width="100px" height="100px">
+
+            </div>
+            <div>
+                <h2>Panificados</h2>
+            </div>
+        </article>
+
+    </section>
+MAPS
+
+    <div id="cover-ctn-ubicacion"></div>
+ <div id="ctn-bars-ubicacion">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.8989460048!2d-75.57369868554292!3d6.251868095491837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429aff7f4f075%3A0x9cf12f1c6abf8fe6!2sCl.%2019%20%2349-20%2C%20Medell%C3%ADn%2C%20Antioquia%2C%20Colombia!5e0!3m2!1ses!2sus!4v1624784400000!5m2!1ses!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    </div>
+    
+    <div id="cover-ctn-ubicacion"></div>
+
+    <main>
+        
+    </main>
+    
+
+    PIE DE PAGINA
+    <footer class="footer" >
+            <div  class="container">
+                <center>
+                    <div class="footer-row">
+                        <div class="footer-links">
+                          <h4>Pagina</h4>
+                            <ul>
+                               <li><a href="">Pagina principal</a></li>
+                              <li><a href="">Productos</a></li>
+                               <li><a href="">Carrito</a></li>
+                              <li><a href="">Ubicacion</a></li>
+                              <li><a href="">Iniciar Sesion-Registrarse</a></li>
+                         </ul>
+
+                         </div>
+                     <div class="footer-links">
+                         <h4>contactenos</h4>
+                            <ul>
+                                <li><a href=""><i class="fa-brands fa-facebook"></i>    SweetMoment_oficial</a></li>
+                                <li><a href=""><i class="fa-brands fa-square-whatsapp">   3512832418</i></a></li>
+                                <li><a href=""><i class="fa-brands fa-square-instagram"></i>     @SweetMomentArg</a></li>
+                                <li><a href=""><i class="fa-brands fa-x-twitter"></i>    @SweetMoment_Arg</a></li>
+                                <li><a href=""><i class="fa-brands fa-linkedin"></i>    SweetMomentCorp</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                
+            </center>
+            </div>
+
+    </footer>
+
+
+    <script>
+    $(document).ready(function(){
+        $('#miBoton').click(function(){
+            $('html, body').animate({
+                scrollTop: $(document).height() // Cambia esto a la posición deseada
+            }, 1000); // Duración de 1 segundo
+        });
+    });
+
+
+    
+#ctn-icon-search i{
+    font-size: 18px;
+    color: #000000;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+#ctn-icon-search i:hover{
+    color: #46a2fd;
+}
+
+
+#ctn-bars-p1,
+#ctn-bars-p2,
+#ctn-bars-p3,
+#ctn-bars-p4,
+#ctn-bars-p5,
+#ctn-bars-p6,
+#ctn-bars-p7,
+#ctn-bars-p8,
+#ctn-bars-p9,
+#ctn-bars-p10{
+    position: fixed;
+    top: -110px;
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+    z-index: 9;
+    transition: all 600ms;
+}
+
+#cover-ctn-p1,
+#cover-ctn-p2,
+#cover-ctn-p3,
+#cover-ctn-p4,
+#cover-ctn-p5,
+#cover-ctn-p6,
+#cover-ctn-p7,
+#cover-ctn-p8,
+#cover-ctn-p9,
+#cover-ctn-p10 {
+    width: 1000%;
+    height: 1000%;
+    position: fixed;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 7;
+    display: none;
+}
+
+FOntAwesome
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+jvproductoviejo
+
+//Ejecutando funciones
+document.getElementById("icon-p").addEventListener("click", mostrar_buscador);
+document.getElementById("cover-ctn-p").addEventListener("click", ocultar_buscador);
+
+//Declarando variables
+bars_p1 =       document.getElementById("ctn-bars-p1");
+cover_ctn_p1 =  document.getElementById("cover-ctn-p1");
+inputSearch_p1 =       document.getElementById("inputSearch_p1");
+box_search_p1 =        document.getElementById("box-search_p1");
+
+bars_p2 =       document.getElementById("ctn-bars-p2");
+cover_ctn_p2 =  document.getElementById("cover-ctn-p2");
+inputSearch_p2 =       document.getElementById("inputSearch_p2");
+box_search_p2 =        document.getElementById("box-search_p2");
+
+
+bars_p3 =       document.getElementById("ctn-bars-p3");
+cover_ctn_p3 =  document.getElementById("cover-ctn-3");
+inputSearch_p3 =       document.getElementById("inputSearch_p3");
+box_search_p3 =        document.getElementById("box-search_p3");
+
+
+bars_p4 =       document.getElementById("ctn-bars-p4");
+cover_ctn_p4 =  document.getElementById("cover-ctn-p4");
+inputSearch_p4 =       document.getElementById("inputSearch_p4");
+box_search_p4 =        document.getElementById("box-search_p4");
+
+
+bars_p5 =       document.getElementById("ctn-bars-p5");
+cover_ctn_p5 =  document.getElementById("cover-ctn-p5");
+inputSearch_p5 =       document.getElementById("inputSearch_p5");
+box_search_p5 =        document.getElementById("box-search_p5");
+
+
+bars_p6 =       document.getElementById("ctn-bars-p6");
+cover_ctn_p6 =  document.getElementById("cover-ctn-p6");
+inputSearch_p6 =       document.getElementById("inputSearch_p6");
+box_search_p6 =        document.getElementById("box-search_p6");
+
+
+bars_p7=       document.getElementById("ctn-bars-p7");
+cover_ctn_p7 =  document.getElementById("cover-ctn-p7");
+inputSearch_p7 =       document.getElementById("inputSearch_p7");
+box_search_p7 =        document.getElementById("box-search_p7");
+
+
+bars_p8 =       document.getElementById("ctn-bars-p8");
+cover_ctn_sp8 =  document.getElementById("cover-ctn-p8");
+inputSearch_p8 =       document.getElementById("inputSearch_p8");
+box_search_p8 =        document.getElementById("box-search_p8");
+
+
+bars_p9 =       document.getElementById("ctn-bars-p9");
+cover_ctn_searchp9 =  document.getElementById("cover-ctn-p9");
+inputSearch_p9 =       document.getElementById("inputSearch_p9");
+box_search_p9 =        document.getElementById("box-search_p9");
+
+
+bars_p10 =       document.getElementById("ctn-bars-p10");
+cover_ctn_p10 =  document.getElementById("cover-ctn-p10");
+inputSearch_p10 =       document.getElementById("inputSearch_p10");
+box_search_p10 =        document.getElementById("box-search_p10");
+
+//Funcion para mostrar el buscador
+function mostrar_producto1(){
+
+    bars_p1.style.top = "9%";
+    cover_ctn_p1.style.display = "block";
+    inputSearch_p1.focus();
+
+}function mostrar_producto2(){
+
+    bars_p2.style.top = "9%";
+    cover_ctn_p2.style.display = "block";
+    inputSearch_p2.focus();
+
+}function mostrar_producto3(){
+
+    bars_p3.style.top = "9%";
+    cover_ctn_p3.style.display = "block";
+    inputSearch_p3.focus();
+
+}function mostrar_producto4(){
+
+    bars_p4.style.top = "9%";
+    cover_ctn_p4.style.display = "block";
+    inputSearch_p4.focus();
+
+}function mostrar_producto5(){
+
+    bars_p5.style.top = "9%";
+    cover_ctn_p5.style.display = "block";
+    inputSearch_p5.focus();
+
+}function mostrar_producto6(){
+
+    bars_p6.style.top = "9%";
+    cover_ctn_p6.style.display = "block";
+    inputSearch_p6.focus();
+
+}function mostrar_producto7(){
+
+    bars_p7.style.top = "9%";
+    cover_ctn_p7.style.display = "block";
+    inputSearch_p7.focus();
+
+}function mostrar_producto8(){
+
+    bars_p8.style.top = "9%";
+    cover_ctn_p8.style.display = "block";
+    inputSearch_p8.focus();
+
+}function mostrar_producto9(){
+
+    bars_p9.style.top = "9%";
+    cover_ctn_p9.style.display = "block";
+    inputSearch_p9.focus();
+
+}
+function mostrar_producto10(){
+
+    bars_p10.style.top = "9%";
+    cover_ctn_p10.style.display = "block";
+    inputSearch_p10.focus();
+
+}
+//Funcion para ocultar el buscador
+function ocultar_p1(){
+
+    bars_p1.style.top = "-100px";
+    cover_ctn_p1.style.display = "none";
+    inputSearch_p1.value = "";
+    box_search_p1.style.display = "none"; 
+}
+function ocultar_p2(){
+
+    bars_p2.style.top = "-100px";
+    cover_ctn_p2.style.display = "none";
+    inputSearch_p2.value = "";
+    box_search_p2.style.display = "none"; 
+}function ocultar_p3(){
+
+    bars_p3.style.top = "-100px";
+    cover_ctn_p3.style.display = "none";
+    inputSearch_p3.value = "";
+    box_search_p3.style.display = "none"; 
+}function ocultar_p4(){
+
+    bars_p4.style.top = "-100px";
+    cover_ctn_p4.style.display = "none";
+    inputSearch_p4.value = "";
+    box_search_p4.style.display = "none"; 
+}function ocultar_p5(){
+
+    bars_p5.style.top = "-100px";
+    cover_ctn_p5.style.display = "none";
+    inputSearch_p5.value = "";
+    box_search_p5.style.display = "none"; 
+}function ocultar_p6(){
+
+    bars_p6.style.top = "-100px";
+    cover_ctn_p6.style.display = "none";
+    inputSearch_p6.value = "";
+    box_search_p6.style.display = "none"; 
+}function ocultar_p7(){
+
+    bars_p7.style.top = "-100px";
+    cover_ctn_p7.style.display = "none";
+    inputSearch_p7.value = "";
+    box_search._p7style.display = "none"; 
+}function ocultar_p8(){
+
+    bars_p8.style.top = "-100px";
+    cover_ctn_p8.style.display = "none";
+    inputSearch_p8.value = "";
+    box_search_p8.style.display = "none"; 
+}function ocultar_p9(){
+
+    bars_p9.style.top = "-100px";
+    cover_ctn_p9.style.display = "none";
+    inputSearch_p9.value = "";
+    box_search_p9.style.display = "none"; 
+}function ocultar_p10(){
+
+    bars_p10.style.top = "-100px";
+    cover_ctn_p10.style.display = "none";
+    inputSearch_p10.value = "";
+    box_search_p10.style.display = "none"; 
+}
+
+
+#ctn-icon-p{
+    font-size: 18px;
+    color: #000000;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+#ctn-icon-p{
+    color: #46a2fd;
+}
+
+
+#ctn-bars-p1,
+#ctn-bars-p2,
+#ctn-bars-p3,
+#ctn-bars-p4,
+#ctn-bars-p5,
+#ctn-bars-p6,
+#ctn-bars-p7,
+#ctn-bars-p8,
+#ctn-bars-p9,
+#ctn-bars-p10{
+    position: fixed;
+    top: -110px;
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+    z-index: 9;
+    transition: all 600ms;
+}
+
+#cover-ctn-p1,
+#cover-ctn-p2,
+#cover-ctn-p3,
+#cover-ctn-p4,
+#cover-ctn-p5,
+#cover-ctn-p6,
+#cover-ctn-p7,
+#cover-ctn-p8,
+#cover-ctn-p9,
+#cover-ctn-p10 {
+    width: 1000%;
+    height: 1000%;
+    position: fixed;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 7;
+    display: none;
+}
+
+
+<?php
+session_start();
+$total = 0;
+
+if (empty($_SESSION['cart'])) {
+    header('Location: cart.php'); // Redirigir si el carrito está vacío
+    exit();
+}
+
+// Calcular el total
+foreach ($_SESSION['cart'] as $item) {
+    $total += $item['total'];
+}
+
+// Aquí puedes integrar un sistema de pago real
+
+// Vaciar el carrito después del pago
+$_SESSION['cart'] = [];
+?>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmación de Pago</title>
+</head>
+<body>
+
+    <h1>Gracias por tu compra</h1>
+    <p>Tu total es: $<?php echo number_format($total, 2); ?></p>
+    <p>Tu pedido ha sido procesado.</p>
+
+    <footer>
+        <p>&copy; 2024 Galería de Café. Todos los derechos reservados.</p>
+        <a href="index.php">Volver a la Galería</a>
+    </footer>
+</body>
+</html>
+
+asteles para Celebrar
+Pastel Sacher: Un clásico austriaco, este pastel de chocolate está compuesto por dos capas de bizcocho de chocolate, relleno de mermelada de albaricoque y cubierto con un glaseado de chocolate.
+Pastel Tres Leches: Muy popular en México y América Latina, este bizcocho esponjoso se empapa en una mezcla de tres tipos de leche (evaporada, condensada y crema) y se cubre con crema batida.
+Cheesecake de Fresa: Este postre estadounidense es conocido por su cremosidad, elaborado con queso crema y decorado con fresas, ofreciendo un equilibrio perfecto entre dulzura y acidez.
+Tarta de Santiago: Originaria de Galicia, España, esta tarta está hecha con almendras molidas, azúcar y huevos, decorada con la Cruz de Santiago.
+Baklava: Este postre del Medio Oriente está hecho de capas de masa filo rellenas de nueces y almendras, bañadas en jarabe de miel, ofreciendo una textura crujiente por fuera y suave por dentro.
+Tarta Tatin: Un clásico francés que se cocina al revés con manzanas caramelizadas bajo la masa, se voltea antes de servir para revelar su delicioso relleno.
+Pavlova: Este postre australiano es un merengue crujiente por fuera y suave por dentro, típicamente cubierto con crema batida y frutas frescas.
+Torta Rogel: Originaria de Argentina, esta torta combina capas de hojaldre con dulce de leche y está cubierta con merengue.
+Fuwa-fuwa (Cheesecake japonés): Este cheesecake japonés es ligero y esponjoso, ideal para acompañar con frutas o mermeladas.
+Pastel Kit Kat®: Un pastel moderno que incorpora barras de chocolate Kit Kat como decoración, ideal para los amantes del chocolate en celebraciones informales.
+Estos pasteles no solo son deliciosos sino que también representan una rica herencia cultural, perfectos para cualquier celebración familiar o festiva.
+
+10 RECETAS de PASTELES SIN HORNO | Tortas Fáciles y Rápidas
+10 RECETAS de PASTELES SIN HORNO | Tortas Fáciles y Rápidas
+Watch
+
+recetasnestle.com.mx
+
+mrcook.app
+
+es.123rf.com
+
+holafrancia.com.ar
+10 Pasteles de Cumpleaños que HICIERON LLORAR al Festejado ...
+Watch
+Video Preview
+10 Pasteles de Cumpleaños que HICIERON LLORAR al Festejado ...
+Watch
+Video Preview
+youtube.com
+Watch
+Video Preview
+dime 8 batidos
+Sources
+recetasnestle.com.mx favicon
+youtube.com favicon
+lecaroz.com favicon
+holafrancia.com.ar favicon
+articulo.mercadolibre.com.ar favicon
+View 5 more
+Answer
+Aquí tienes 8 deliciosos batidos que puedes preparar fácilmente:
+Batido de Plátano y Miel: Mezcla plátano maduro, leche (puede ser de soja o almendra), miel y un poco de nuez moscada. Este batido es cremoso y energizante, ideal para comenzar el día.
+Batido de Bayas: Combina fresas, arándanos y frambuesas con yogur natural. Añade hielo para un toque refrescante y decora con algunas bayas enteras.
+Batido Tropical de Piña y Mango: Licúa piña fresca, mango y agua de coco. Este batido es perfecto para los días calurosos y tiene un sabor exótico.
+Batido Verde: Mezcla espinacas, plátano, manzana verde y un poco de jugo de limón. Es nutritivo y lleno de vitaminas, ideal para una merienda saludable.
+Batido de Chocolate y Plátano: Combina plátano, leche, cacao en polvo y un poco de azúcar o miel. Este batido es un placer indulgente que satisface los antojos de chocolate.
+Batido de Fresa y Yogur: Mezcla fresas frescas con yogur griego y un toque de miel. Este batido es cremoso y lleno de sabor.
+Batido Energético de Avena: Licúa leche, plátano, avena y una cucharada de mantequilla de almendra. Es ideal para un desayuno energético.
+Batido Refrescante de Kiwi: Mezcla kiwi pelado, jugo de naranja y un poco de miel. Este batido es refrescante y lleno de vitamina C.

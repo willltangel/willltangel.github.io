@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&display=swap');
+
+body {
+
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ecd2ba;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  align-items: center;
+  justify-content: center;
+  cursor: url('../img/punterobaggu.png'), auto;
+}
+
+a {
+  text-decoration: none;
+  cursor: url('../img/punterocroiss.png'), pointer;
+  
+}
+header nav div a{
+  cursor: url('../img/punterocroiss.png'), pointer;
+}
+
+
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+.zoom {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  margin: 0px;
+}
+
+html,
+body {
+  height: 130%;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+
+
+.footer {
+  background-color: #242628;
+  padding: 80px 0;
+  height: 400px;
+  width: 100%;
+  align-items: center;
+  top: 100%;
+
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-links {
+  width: 25%;
+  padding: 0 15px;  
+}
+
+.footer-links h4 {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 25px;
+  font-weight: 500;
+  border-bottom: 2px solid #00C3FF;
+  padding-bottom: 10px;
+  display: inline-block;
+  align-items: center;
+}
+
+.footer-links ul li a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #BBBBBB;
+  display: block;
+  margin-bottom: 15px;
+  transition: all .3s ease; align-items: centers;
+}
+
+.footer-links ul li a:hover {
+  color: #FFFFFF;
+  padding-left: 6px;
+}
+
+@media (max-width: 600px) {
+  .footer-main {
+      flex-direction: column;
+  }
+
+  .footer-main > div {
+      margin-bottom: 20px; 
+  }
+}
+
+.social-link a {
+  display: inline-block;
+  min-height: 40px;
+  width: 40px;
+  background-color: rgb(255, 255, 255, 0.2);
+  margin: 100%;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #FFFFFF;
+  transition: all .3s ease;
+
+}
+
+section {
+  width: 100%;
+  height: 10vh;
+  display: felx;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+#seccion1 {
+
+  background: #f0f0f0 url('imagenes/panaderiabk.jpg') no-repeat center/cover;
+  background-size: 50%;
+
+
+}
+
+a {
+  text-decoration: none;
+}
+
+a i {
+  text-decoration: none;
+}
+
+.button {
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: absolute;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.image-container {
+  display: absolute;
+  padding: 8%;
+  align-items: center;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin: 0 10px;
+  transition: transform 0.5s ease;
+}
+
+.button:hover+.image-container img {
+  transform: translateX(-100%);
+}
+
+.image-container2 {
+  display: absolute;
+  padding: 8%;
+  align-items: center;
+  overflow: hidden;
+}
+
+.image-container2 img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin: 0 10px;
+  transition: transform 0.5s ease;
+}
+
+.button:hover+.image-container2 img {
+  transform: translateX(-100%);
+}
